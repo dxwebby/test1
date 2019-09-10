@@ -21,3 +21,7 @@ Auth::routes();
 // Using Resources by following the conventional namespacing
 Route::resource('/todo', 'TodoController');
 
+// Route for VUE
+Route::get('/vtodo', 'TodoVueController@index');
+ROute::post('/vtodo', 'TodoVueController@store');
+

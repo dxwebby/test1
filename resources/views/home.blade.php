@@ -2,6 +2,27 @@
 
 @section('content')
 <div class="container">
+    <!-- Laravel and Vue -->
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">Dashboard VUE</div>
+
+                <div class="card-body">                                      
+                    
+                    <div class="card">
+                        <div class="card-header">                            
+                            Todo List
+                        </div>
+                        <div class="card-body">
+                            <todo/>
+                        </div>
+                    </div>                                        
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Laravel and Ajax -->
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -68,35 +89,6 @@
                 </div>
             </div>
         </div>
-    </div>
-
-
-    <!-- Laravel and Vue -->
-    <div class="row justify-content-center mt-5">
-            <div class="col-md-8">
-                <div class="card">
-                    <div class="card-header">Dashboard VUE1</div>
-    
-                    <div class="card-body">                                      
-                        
-                        <div class="card">
-                            <div class="card-header">                            
-                                <div class="row">
-                                    <div class="col-lg-4 my-auto">
-                                        Todo List
-                                    </div>
-                                    <div class="col-lg-8 my-auto">
-                                        form
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <todo/>
-                            </div>
-                        </div>                                        
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div>    
 </div>
 @endsection
